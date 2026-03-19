@@ -2,12 +2,28 @@ from clients.api_client import APIClient
 from httpx import Response
 from typing import TypedDict
 
+from clients.public_http_builder import get_public_http_client
+
+class Token(TypedDict):
+    """
+    Описание структуры аутентификационных токенов.
+    """
+    tokenType: str
+    accessToken: str
+    refreshToken: str
+
 class LoginRequestDict(TypedDict):
     """
     Описание структуры запроса на аутентификацию.
     """
     email: str
     password: str
+
+class LoginResponseDict(TypedDict):
+    """
+    Описание структуры ответа аутентификации.
+    """
+    token: Token
 
 class RefreshRequestDict(TypedDict):
     """
@@ -36,3 +52,17 @@ class AuthClient(APIClient):
           :return: Ответ от сервера в виде объекта httpx.Response
           """
         return self.post("/api/v1/authentication/refresh", json=request)
+
+    # Добавили метод login
+    def login(self , request: LoginRequestDict) -> LoginResponseDict:
+        response = self.login_api(request) # Отправляем запрос на аутентификацию
+        return response.json() # Извлекаем JSON из ответа
+
+# Добавляем builder для AuthenticationClient
+def get_authentication_client() -> AuthClient:
+    """
+    Функция создаёт экземпляр AuthenticationClient с уже настроенным HTTP-клиентом.
+
+    :return: Готовый к использованию AuthenticationClient.
+    """
+    return AuthClient(client=get_public_http_client())
