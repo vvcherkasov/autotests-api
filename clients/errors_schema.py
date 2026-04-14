@@ -29,4 +29,4 @@ class InternalErrorResponseSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    details: str | None = Field(alias="detail")
+    details: str = Field(alias="detail")
