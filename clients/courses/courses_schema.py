@@ -30,6 +30,9 @@ class GetCoursesQuerySchema(BaseModel):
     user_id: str = Field(alias="userId")
 
 class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
     courses: list[CourseSchema]
 
 class CreateCourseRequestSchema(BaseModel):
