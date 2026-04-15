@@ -21,7 +21,7 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.get(
-            f"/api/v1/courses/",
+            f"/api/v1/courses",
             params= query.model_dump(by_alias=True)
         )
 
