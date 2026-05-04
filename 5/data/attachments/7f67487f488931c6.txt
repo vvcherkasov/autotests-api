@@ -1,0 +1,11 @@
+curl -X 'PATCH \
+ 'http://localhost:8000/api/v1/courses/96b78708-cf80-43c3-8672-c3caf387e9f7' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjU4OjM3LjY5OTExOCIsInVzZXJfaWQiOiJhOGJiYTU3ZC04ZjRmLTQ2MDMtODRjMC1hNWNmZjg0NjQ5M2UifQ.JRCwiN2594cRjNriTiuX24e9K3KiN4n19OLdhUDFLbg' \
+ -H 'content-length: 478' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Очко что выраженный руководитель помимо.","maxScore":77,"minScore":24,"description":"Функция налоговый направо вскакивать сынок. Зеленый мелькнуть бригада мелькнуть помимо терапия.\nРасстройство аллея основание обида кпсс. Покинуть картинка пересечь мелочь.","estimatedTime":"2 weeks"}'

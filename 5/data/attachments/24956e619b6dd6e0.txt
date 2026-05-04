@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjU4OjQwLjc2NTQ1MyIsInVzZXJfaWQiOiJjNTkxNTg0Ny0wYjZmLTRkOGQtOGIwYS1lNDY3YTlhNjAzNGIifQ.ehuQWc6dzgOMescXwwIGOd7JGTl3X8ZhadJaw8_z9fk' \
+ -H 'content-length: 530' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Провал устройство заработать зеленый тута славный постоянный.","courseId":"b9b1d791-df88-4c47-8169-d4d4d0db2c01","maxScore":70,"minScore":17,"orderIndex":44,"description":"Протягивать что вообще медицина растеряться. Невозможно услать еврейский направо забирать кидать выкинуть. Провал карман бетонный равнодушный.","estimatedTime":"5 weeks"}'

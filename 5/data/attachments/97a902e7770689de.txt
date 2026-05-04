@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjU4OjQwLjc2NTQ1MyIsInVzZXJfaWQiOiJjNTkxNTg0Ny0wYjZmLTRkOGQtOGIwYS1lNDY3YTlhNjAzNGIifQ.ehuQWc6dzgOMescXwwIGOd7JGTl3X8ZhadJaw8_z9fk' \
+ -H 'content-length: 561' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Промолчать тюрьма ложиться полевой адвокат тревога солнце.","maxScore":64,"minScore":4,"description":"Спичка разуметься сынок человечек печатать потрясти. Подземный направо экзамен.\nВолк гулять зеленый. Следовательно столетие эпоха уронить.","estimatedTime":"2 weeks","previewFileId":"b830b86d-e4dd-43e7-b269-94416d67bdcc","createdByUserId":"c5915847-0b6f-4d8d-8b0a-e467a9a6034b"}'

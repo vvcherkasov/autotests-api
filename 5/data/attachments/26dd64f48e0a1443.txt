@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjU4OjM3LjY5OTExOCIsInVzZXJfaWQiOiJhOGJiYTU3ZC04ZjRmLTQ2MDMtODRjMC1hNWNmZjg0NjQ5M2UifQ.JRCwiN2594cRjNriTiuX24e9K3KiN4n19OLdhUDFLbg' \
+ -H 'content-length: 539' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Кидать мелочь сустав костер сбросить угроза.","maxScore":83,"minScore":19,"description":"Запретить сходить второй поколение другой цепочка. Отражение штаб выраженный адвокат инвалид. Провинция вытаскивать четыре появление монета.","estimatedTime":"9 weeks","previewFileId":"bab0a6b0-b0ad-4dd6-8315-df0ea838cd7e","createdByUserId":"a8bba57d-8f4f-4603-84c0-a5cff846493e"}'
