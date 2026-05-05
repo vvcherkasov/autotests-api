@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA1VDA3OjUwOjUxLjk5NTcyNyIsInVzZXJfaWQiOiJiM2E0MWNmNi0yY2JkLTQzZDQtOWEyYy1iYzdkNTlmNjAxYTQifQ.NFLOJrm1f7_zpueZCoeGxqt-PSadYRfeYXVcAAjsE9k' \
+ -H 'content-length: 573' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Скрытый ремень идея уронить недостаток порог ложиться.","courseId":"282c5cb3-2b20-44a4-9e25-b8664a7239e4","maxScore":60,"minScore":25,"orderIndex":90,"description":"Хозяйка жестокий промолчать военный правление карман оборот песня.\nТрубка актриса тяжелый инвалид советовать. Стакан потянуться приятель число болото пересечь соответствие.","estimatedTime":"2 weeks"}'

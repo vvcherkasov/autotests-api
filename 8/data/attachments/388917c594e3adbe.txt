@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA1VDA3OjUwOjUwLjUzMTE5MiIsInVzZXJfaWQiOiJmMTBlNGU0YS1jN2ExLTQ2YjgtYjNkZi1lYjU2MGMyOWMzNmYifQ.d-e-8FfZJgQizIeA2gmMaYtoJN7-uaXj1j6WU3MW1GU' \
+ -H 'content-length: 480' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Необычный приходить бетонный ответить.","maxScore":97,"minScore":28,"description":"Манера механический аж приятель военный. Лапа скрытый прелесть багровый сутки коробка. Хотеть дружно нервно монета.","estimatedTime":"2 weeks","previewFileId":"ac1fe9b8-de76-4c53-a5bd-ed72c6f3ad87","createdByUserId":"f10e4e4a-c7a1-46b8-b3df-eb560c29c36f"}'

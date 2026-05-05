@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA1VDA3OjUwOjUwLjgwNDU4MiIsInVzZXJfaWQiOiJhNTgwZWMyYS1kMWUyLTRiNWMtYTQxZi01NzgxZWM2MzExMjgifQ.BH14LhF0t2fXzcBRZuW9D_CWjxrnN5GY5OYA1zoMpKg' \
+ -H 'content-length: 535' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ярко командующий за реклама приятель ручей вскинуть мимо.","maxScore":67,"minScore":2,"description":"Цвет штаб каюта оборот горький дьявол висеть дорогой. Сохранять коробка казнь выгнать зима. Палец торговля остановить багровый.","estimatedTime":"9 weeks","previewFileId":"e3c69575-f4fc-40ac-bace-f9073bc87c56","createdByUserId":"a580ec2a-d1e2-4b5c-a41f-5781ec631128"}'

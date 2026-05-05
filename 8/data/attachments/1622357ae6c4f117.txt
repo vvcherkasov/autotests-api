@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:24 Make GET request to http://localhost:8000/api/v1/exercises?courseId=4c222383-7587-41f9-9d18-8bd2d96c20ea
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=4c222383-7587-41f9-9d18-8bd2d96c20ea
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to d47ce903-9d48-46e7-8070-37f9d09181f6
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Отъезд непривычный механический намерение около скользить.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 4c222383-7587-41f9-9d18-8bd2d96c20ea
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 84
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Спорт неожиданно деловой некоторый мягкий смеяться похороны конструкция. Военный зачем чем.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200

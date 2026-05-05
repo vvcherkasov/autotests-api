@@ -1,0 +1,11 @@
+curl -X 'PATCH \
+ 'http://localhost:8000/api/v1/exercises/2b7d887a-04ef-4073-b81a-248f7217c119' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA1VDA3OjUwOjUwLjgwNDU4MiIsInVzZXJfaWQiOiJhNTgwZWMyYS1kMWUyLTRiNWMtYTQxZi01NzgxZWM2MzExMjgifQ.BH14LhF0t2fXzcBRZuW9D_CWjxrnN5GY5OYA1zoMpKg' \
+ -H 'content-length: 341' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Радость кольцо один покидать провал да услать.","maxScore":99,"minScore":17,"orderIndex":2,"description":"Белье выражаться полюбить разнообразный демократия изменение. Карман коллектив плод.","estimatedTime":"4 weeks"}'

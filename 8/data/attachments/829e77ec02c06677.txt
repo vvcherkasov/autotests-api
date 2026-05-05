@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:24 Make GET request to http://localhost:8000/api/v1/exercises/a3f4f8e5-41eb-4dbe-b6f8-a60880fc25dc
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/exercises/a3f4f8e5-41eb-4dbe-b6f8-a60880fc25dc
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:68 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to a3f4f8e5-41eb-4dbe-b6f8-a60880fc25dc
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Каюта смертельный дурацкий лапа достоинство освобождение.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 0762672d-4f3d-4fd9-8804-873c7c336078
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 6
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Пересечь левый народ прежний тюрьма способ. Гулять вообще господь настать. Термин желание прелесть посвятить настать советовать.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

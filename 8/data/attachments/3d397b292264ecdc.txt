@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA1VDA3OjUwOjUxLjcyMDIxMCIsInVzZXJfaWQiOiIwOGU2OWY5NC1iM2ViLTQ3OTMtODdhYy04NGFmY2Y5YzlhMWMifQ.URT4PH9eJ5tcNNmEuk-1PAi_x7UzEkjYlpu0T7LPgTs' \
+ -H 'content-length: 455' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Следовательно вывести кожа.","maxScore":79,"minScore":15,"description":"Новый строительство оставить приличный четко функция. Наступать рота назначить дрогнуть. Появление плод выгнать.","estimatedTime":"6 weeks","previewFileId":"5ce89b29-4861-421c-9abc-204c04cc499f","createdByUserId":"08e69f94-b3eb-4793-87ac-84afcf9c9a1c"}'

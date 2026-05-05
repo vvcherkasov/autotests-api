@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA1VDA3OjUwOjUyLjk2NTM4MiIsInVzZXJfaWQiOiJlZWY1NjFhOC0zMDg3LTQyNjUtYmEyOS0yNTA0NjUzNTk5NzUifQ.OhUMtb0P7VbZvyhVLwLaYI9jrmsAlbQjGlP23--P668' \
+ -H 'content-length: 516' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Выбирать рота очко дремать способ блин пламя.","maxScore":69,"minScore":21,"description":"Рот место боец редактор головной. Боец приятель жестокий эпоха легко мера. Витрина табак вариант пастух затянуться коробка белье.","estimatedTime":"4 weeks","previewFileId":"d133a58f-5e34-4388-abc6-cccff77dffd3","createdByUserId":"eef561a8-3087-4265-ba29-250465359975"}'
