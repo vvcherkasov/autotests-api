@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQzOjAwLjc5NDg3NiIsInVzZXJfaWQiOiJjMzJmNTI0Mi01YWNhLTQzNmQtODBlMC1mYzNkODA4YjFjZTMifQ.TgFC37UjJceM2pIIKI8CNz7-6xYRdRu4v48ilT8zELA' \
+ -H 'content-length: 675' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Горький темнеть ход выражение миф развернуться подземный.","maxScore":67,"minScore":26,"description":"Поймать трубка спорт секунда тута снимать сынок освободить. Очередной пространство дыхание пространство.\nСпорт поставить предоставить интернет число. Дыхание возмутиться труп написать важный тревога.","estimatedTime":"9 weeks","previewFileId":"db65a4f8-dc0f-4014-933d-63d2fe4aedf4","createdByUserId":"c32f5242-5aca-436d-80e0-fc3d808b1ce3"}'

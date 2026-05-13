@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQyOjU5LjMxODIyNCIsInVzZXJfaWQiOiIwZmMyNTg3YS0zYWUyLTQ1NTgtYmI5Yi0wM2UwZjM4MzRjMWUifQ.HGG_dncCcbQMSO9MwlSGD7WaSz69l8lPHa_6WoLghic' \
+ -H 'content-length: 577' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ход понятный новый.","maxScore":65,"minScore":17,"description":"Жить растеряться деловой остановить плод. Ныне слишком спичка бочок темнеть спорт. Ход заявление конференция интернет.\nДевка мотоцикл способ рай. Космос ломать исполнять материя жестокий.","estimatedTime":"1 weeks","previewFileId":"32e1859e-c903-47d9-addf-974e8d023881","createdByUserId":"0fc2587a-3ae2-4558-bb9b-03e0f3834c1e"}'

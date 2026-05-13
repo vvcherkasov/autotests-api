@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQyOjU4LjQyODc4OSIsInVzZXJfaWQiOiIwOTFlZjFjNC02NTc1LTRiZDgtOGZmZi0xNDdhYzc2OGU4OTgifQ.EGowCRNcpQ98WNqLjRoyJ_DvWgInuBzUzJyus7QPQ20' \
+ -H 'content-length: 564' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Рота порода скрытый пробовать пространство пол падать.","maxScore":84,"minScore":2,"description":"Решетка монета сверкающий прежний выражение спорт выкинуть. Тюрьма некоторый рот боец славный. Народ заведение набор оставить ломать труп плавно.","estimatedTime":"8 weeks","previewFileId":"93abae31-75a4-4f1a-a284-92496d6ff8e0","createdByUserId":"091ef1c4-6575-4bd8-8fff-147ac768e898"}'

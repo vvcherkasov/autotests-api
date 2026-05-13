@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQzOjAxLjc2MjA0OSIsInVzZXJfaWQiOiJiMWYyOGE2Zi0yYmUzLTQ3YjctODBiNC04ZTlkYjc3MzVlMTAifQ.3QOVYYREbPEn36GkbdVj_He5CqJZgBwrtHusUo5VE8Y' \
+ -H 'content-length: 543' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Остановить перебивать хотеть приятель заведение.","maxScore":94,"minScore":29,"description":"Важный правильный видимо выгнать за ученый ведь. Кожа металл смелый выражение. Тесно соответствие помолчать ложиться оставить рассуждение.","estimatedTime":"8 weeks","previewFileId":"ef6bf16d-45d5-4b82-9779-127dce86bb5b","createdByUserId":"b1f28a6f-2be3-47b7-80b4-8e9db7735e10"}'

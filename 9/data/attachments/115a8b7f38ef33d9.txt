@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQyOjU5LjU5MzI0MyIsInVzZXJfaWQiOiI2YWUwZjBkNC04ODYwLTQxM2QtOGJmMC0xNWU1MTY1NDhmNWMifQ.d1LDF3LlqRoLDiDYls01nBPYF5WKJB3l-nB-ifmXXcQ' \
+ -H 'content-length: 421' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Порт волк темнеть покинуть.","maxScore":83,"minScore":24,"description":"Терапия порог уронить ученый ярко труп что научить. Лететь сопровождаться порт падать карандаш.","estimatedTime":"8 weeks","previewFileId":"e2490aed-d2c1-4f7d-8c20-6e51b8b6c5db","createdByUserId":"6ae0f0d4-8860-413d-8bf0-15e516548f5c"}'

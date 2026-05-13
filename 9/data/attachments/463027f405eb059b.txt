@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQzOjAyLjAzNjg3NyIsInVzZXJfaWQiOiJkNWNjMThhNi1jYTM2LTRmNzAtOTY2OC1kM2YyOGM4MGNkMmIifQ.BisWljSfJswLjTVzGIobK3Rq588WIzSMJ-22WvlVSjw' \
+ -H 'content-length: 550' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сбросить покидать постоянный болото заплакать смертельный иной выгнать.","courseId":"81e90278-a202-4d40-829c-fe74cf00b172","maxScore":50,"minScore":20,"orderIndex":76,"description":"Бабочка бригада видимо поезд хозяйка упорно. Серьезный применяться предоставить умирать умолять процесс ребятишки. Чем спичка выкинуть вариант.","estimatedTime":"1 weeks"}'

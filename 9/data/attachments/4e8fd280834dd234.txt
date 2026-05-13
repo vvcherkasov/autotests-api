@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQzOjAyLjAzNjg3NyIsInVzZXJfaWQiOiJkNWNjMThhNi1jYTM2LTRmNzAtOTY2OC1kM2YyOGM4MGNkMmIifQ.BisWljSfJswLjTVzGIobK3Rq588WIzSMJ-22WvlVSjw' \
+ -H 'content-length: 631' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Достоинство грустный район дыхание приятель угол.","maxScore":89,"minScore":2,"description":"Трубка издали июнь сутки человечек. Легко банда торговля район.\nПропасть витрина рот. Сверкать желание подробность грустный левый. Неожиданно рабочий передо бабочка академик лиловый рай.","estimatedTime":"2 weeks","previewFileId":"d39e7a34-6616-4599-a203-e098aabfa84a","createdByUserId":"d5cc18a6-ca36-4f70-9668-d3f28c80cd2b"}'

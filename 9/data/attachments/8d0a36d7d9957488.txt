@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQyOjU3Ljg0MTc1MSIsInVzZXJfaWQiOiI1MzI4ZjAzMi02NDMxLTQ3YjEtOGVjNS1kYTc0MzdlNWYxYTQifQ.JCN98SrnDu1ZzJICXc_YGsN7zM-Iz_UJhAFThwgqLyE' \
+ -H 'content-length: 674' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Добиться коробка конструкция какой изменение серьезный ярко головка.","maxScore":66,"minScore":11,"description":"Низкий кузнец виднеться запустить выдержать деловой покидать. Покидать дорогой песенка вообще перебивать понятный.\nЧто госпожа миф жидкий. Отметить посидеть аж. Гулять светило через пастух.","estimatedTime":"7 weeks","previewFileId":"f41c500c-c11c-43f3-85d5-8198ec882f41","createdByUserId":"5328f032-6431-47b1-8ec5-da7437e5f1a4"}'

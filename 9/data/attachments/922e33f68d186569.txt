@@ -1,0 +1,11 @@
+curl -X 'PATCH \
+ 'http://localhost:8000/api/v1/courses/c15923d1-ef9e-44f4-b2c7-0d009bc0ad16' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQyOjU5LjMxODIyNCIsInVzZXJfaWQiOiIwZmMyNTg3YS0zYWUyLTQ1NTgtYmI5Yi0wM2UwZjM4MzRjMWUifQ.HGG_dncCcbQMSO9MwlSGD7WaSz69l8lPHa_6WoLghic' \
+ -H 'content-length: 408' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Багровый зеленый даль засунуть потрясти ночь.","maxScore":90,"minScore":25,"description":"Налоговый выкинуть способ роскошный. Пропадать выбирать написать.\nНаступать единый совет передо потянуться. Решение фонарик июнь.","estimatedTime":"1 weeks"}'

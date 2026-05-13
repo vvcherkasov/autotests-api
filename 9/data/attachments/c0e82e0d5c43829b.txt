@@ -1,0 +1,18 @@
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Рота порода скрытый пробовать пространство пол падать.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Решетка монета сверкающий прежний выражение спорт выкинуть. Тюрьма некоторый рот боец славный. Народ заведение набор оставить ломать труп плавно.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 93abae31-75a4-4f1a-a284-92496d6ff8e0
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 091ef1c4-6575-4bd8-8fff-147ac768e898
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

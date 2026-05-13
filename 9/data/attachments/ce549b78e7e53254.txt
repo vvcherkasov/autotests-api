@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:24 Make GET request to http://localhost:8000/api/v1/exercises?courseId=81e90278-a202-4d40-829c-fe74cf00b172
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=81e90278-a202-4d40-829c-fe74cf00b172
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 3bcf8831-2055-418d-85cd-881e2c1fe6a8
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Сбросить покидать постоянный болото заплакать смертельный иной выгнать.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 81e90278-a202-4d40-829c-fe74cf00b172
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 50
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 76
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Бабочка бригада видимо поезд хозяйка упорно. Серьезный применяться предоставить умирать умолять процесс ребятишки. Чем спичка выкинуть вариант.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200

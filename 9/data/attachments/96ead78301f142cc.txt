@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQzOjAwLjc5NDg3NiIsInVzZXJfaWQiOiJjMzJmNTI0Mi01YWNhLTQzNmQtODBlMC1mYzNkODA4YjFjZTMifQ.TgFC37UjJceM2pIIKI8CNz7-6xYRdRu4v48ilT8zELA' \
+ -H 'content-length: 457' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Жидкий совещание тревога правый.","courseId":"ee2c58e9-1618-4e6b-93d1-2f157ff6d1fa","maxScore":57,"minScore":14,"orderIndex":65,"description":"Командование пропасть нажать выбирать понятный премьера пятеро. Дьявол покинуть грустный применяться намерение казнь правление роса.","estimatedTime":"1 weeks"}'

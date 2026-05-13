@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQzOjAwLjUxOTkxMSIsInVzZXJfaWQiOiI2MjI5NDViNy00ZjMzLTRkODYtODBlMS00NTZkNzQ0OTgyMWIifQ.HAOzTYWgYOxRDgKaxHpEc9WBfsG7QD47GQ-rx3_RCWc' \
+ -H 'content-length: 623' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Трубка смелый школьный господь военный кожа.","maxScore":91,"minScore":22,"description":"Сбросить протягивать смертельный дошлый ученый важный. Еврейский нож терапия плавно ломать приходить что неожиданный. Выбирать деловой медицина наслаждение неправда солнце темнеть шлем.","estimatedTime":"1 weeks","previewFileId":"16f4e145-5006-4767-bdca-5f361f3e7374","createdByUserId":"622945b7-4f33-4d86-80e1-456d7449821b"}'
