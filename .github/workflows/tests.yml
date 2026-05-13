@@ -72,7 +72,7 @@ jobs:
           name: coverage-report
           path: coverage.html
 
-      - name: Upload Allure results
+      - name: Upload Allure  results
         if: always()
         uses: actions/upload-artifact@v7
         with:
