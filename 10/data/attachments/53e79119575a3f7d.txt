@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:24 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:24 Make GET request to http://localhost:8000/api/v1/exercises?courseId=f27ab607-37d2-40fc-95a2-fae0ba115146
+INFO     HTTP_LOGER:event_hooks.py:32 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=f27ab607-37d2-40fc-95a2-fae0ba115146
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to c31daf45-4fb5-4bcb-a321-851c00a79da3
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Увеличиваться райком прелесть издали господь.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to f27ab607-37d2-40fc-95a2-fae0ba115146
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 53
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Штаб советовать дьявол валюта отражение сверкать тусклый. Слишком сутки заявление. Налево бригада самостоятельно лапа выражение бабочка рассуждение.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200

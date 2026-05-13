@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQ2OjM0LjI0NzU5NCIsInVzZXJfaWQiOiI1ZDIwZWJlZi00NmIyLTRkZWUtOTNlOC00NzE3YWI0ZmFhMDYifQ.K0V7VXSKn3iLnSqLYl2lARiNE7taofTpKa_AKciDyLk' \
+ -H 'content-length: 581' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Военный ответить выражение инфекция оставить.","maxScore":97,"minScore":25,"description":"Правление падать поймать. Собеседник рот болото прежний бочок соответствие.\nПомимо отъезд правление сравнение возможно голубчик. Упорно сбросить монета уточнить.","estimatedTime":"4 weeks","previewFileId":"43d6a7bc-d7b3-4afc-adbf-00c4ca7509ec","createdByUserId":"5d20ebef-46b2-4dee-93e8-4717ab4faa06"}'

@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQ2OjMzLjAzOTczMiIsInVzZXJfaWQiOiI4YjY4NmFmZC1lYWU1LTQzMDYtODc3Ny04MTFmOTk3ODA4ZmQifQ.MIsDmeB-1GV_EI3Ls8Q-X9t3hH_RaFAckha8o845CDQ' \
+ -H 'content-length: 468' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Выгнать промолчать возмутиться миг пространство коричневый.","maxScore":91,"minScore":4,"description":"Пол носок тута столетие выражение валюта. Строительство поймать войти угроза наступать.","estimatedTime":"5 weeks","previewFileId":"d4be2ace-b851-4cd3-bed5-12b8b11c0077","createdByUserId":"8b686afd-eae5-4306-8777-811f997808fd"}'

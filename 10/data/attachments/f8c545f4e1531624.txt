@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQ2OjMyLjQ1NzY2NSIsInVzZXJfaWQiOiJkMWJmMjlkZi1lNDU0LTRmNzEtOWI5Ni01OGEzNTE0ODNkNjIifQ.wpdVU_FovtU5aV9ItLRtxe9iEC_tec2IMY8QpykakUI' \
+ -H 'content-length: 620' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Настать правый дыхание ручей витрина песня.","maxScore":94,"minScore":2,"description":"Выраженный вывести князь прелесть прежде вздрагивать банда. Правление ученый вздрагивать находить багровый манера собеседник. Очередной одиннадцать заплакать счастье хотеть прошептать.","estimatedTime":"5 weeks","previewFileId":"2e8401b1-fc92-4f03-8109-c5db29965ad5","createdByUserId":"d1bf29df-e454-4f71-9b96-58a351483d62"}'

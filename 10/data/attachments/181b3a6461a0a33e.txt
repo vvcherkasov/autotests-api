@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQ2OjM0Ljg4NjU5OSIsInVzZXJfaWQiOiJiNmNkYTEwYi0zNzY3LTQ5YTktYmEzMS1jOGI2OGRjZTQxZGYifQ.LA6xjZBV_-M9H81mLPmo0D3gMpuqKaIbSGuV6nC5PWU' \
+ -H 'content-length: 605' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Девка слать вытаскивать легко эпоха тревога задрать.","maxScore":50,"minScore":15,"description":"Изучить помолчать вывести оборот рассуждение лететь дальний. Темнеть сомнительный жидкий болото. Ложиться ныне слишком смертельный опасность вывести прошептать отъезд.","estimatedTime":"4 weeks","previewFileId":"112c33cc-a553-4568-9846-92cd318f9c8f","createdByUserId":"b6cda10b-3767-49a9-ba31-c8b68dce41df"}'

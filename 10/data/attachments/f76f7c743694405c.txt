@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQ2OjMzLjY3MDI2NiIsInVzZXJfaWQiOiJkMWVmZjU2ZC1hMWQ3LTQ2MDktODIzOS0wNTcxMWQxMWQzMTAifQ.pKgGfPqdfe3rZfSOSh90iHy2prEcw-zd14h8e-VAQn8' \
+ -H 'content-length: 520' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Товар пол неправда жидкий вчера.","maxScore":52,"minScore":23,"description":"Тусклый совет ложиться солнце отдел. Более издали неудобно.\nЛететь ход функция постоянный. Мелочь табак угроза кузнец совет проход чем покидать.","estimatedTime":"6 weeks","previewFileId":"364d6349-a5f2-4924-a355-907164e1a842","createdByUserId":"d1eff56d-a1d7-4609-8239-05711d11d310"}'

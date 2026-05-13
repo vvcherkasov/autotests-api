@@ -1,0 +1,11 @@
+curl -X 'POST \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQ2OjMxLjg3NjQ2NyIsInVzZXJfaWQiOiJkMTdmMzY1MC01MTU2LTQwNzItYWJjNi03YTg1M2RjYWQyYTAifQ.zQL7kgKBs0if2XUOwK_RCaJ3cLsr0XiUHx_GUf68bBI' \
+ -H 'content-length: 521' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Плод успокоиться термин картинка.","maxScore":58,"minScore":21,"description":"Изба результат правый конференция потом. Отъезд сутки девка выгнать. Выдержать плавно райком пропасть штаб. Спасть вообще школьный идея эффект.","estimatedTime":"7 weeks","previewFileId":"bbe150d8-60b3-4a8c-bb05-685134e452d4","createdByUserId":"d17f3650-5156-4072-abc6-7a853dcad2a0"}'

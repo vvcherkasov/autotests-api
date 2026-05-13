@@ -1,0 +1,11 @@
+curl -X 'PATCH \
+ 'http://localhost:8000/api/v1/courses/73655563-4a0a-4447-a908-40664f117e1a' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDEwOjQ2OjMyLjQ1NzY2NSIsInVzZXJfaWQiOiJkMWJmMjlkZi1lNDU0LTRmNzEtOWI5Ni01OGEzNTE0ODNkNjIifQ.wpdVU_FovtU5aV9ItLRtxe9iEC_tec2IMY8QpykakUI' \
+ -H 'content-length: 398' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Пересечь висеть хлеб услать потом тяжелый вытаскивать пространство.","maxScore":60,"minScore":30,"description":"Вперед заработать военный карандаш чувство желание налоговый. Мелочь пропадать неожиданно роскошный.","estimatedTime":"10 weeks"}'
