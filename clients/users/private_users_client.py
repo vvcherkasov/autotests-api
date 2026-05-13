@@ -7,6 +7,7 @@ from clients.private_http_builder import get_private_http_client
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.users_schema import GetUserResponseSchema, UpdateUserRequestSchema, UpdateUserResponseSchema
 from tools.routes import APIRoutes
+from clients.api_coverage import tracker
 
 
 class PrivateUsersClient(APIClient):
@@ -14,6 +15,7 @@ class PrivateUsersClient(APIClient):
     Клиент для работы с /api/v1/users
     """
     @allure.step("Get user me")
+    @tracker.track_coverage_httpx(f"{APIRoutes.USERS}/me")
     def get_user_me_api(self) -> Response:
         """
         Метод получения текущего пользователя.
@@ -23,6 +25,7 @@ class PrivateUsersClient(APIClient):
         return self.get(f"{APIRoutes.USERS}/me")
 
     @allure.step("Get user by id {user_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.USERS}/{{user_id}}")
     def get_user_api(self, user_id: str) -> Response:
         """
         Метод получения пользователя по идентификатору.
@@ -33,6 +36,7 @@ class PrivateUsersClient(APIClient):
         return self.get(f"{APIRoutes.USERS}/{user_id}")
 
     @allure.step("Update user by id {user_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.USERS}/{{user_id}}")
     def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
         Метод обновления пользователя по идентификатору.
@@ -47,6 +51,7 @@ class PrivateUsersClient(APIClient):
         )
 
     @allure.step("Delete user by id {user_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.USERS}/{{user_id}}")
     def delete_user_api(self, user_id: str) -> Response:
         """
         Метод удаления пользователя по идентификатору.
@@ -54,7 +59,7 @@ class PrivateUsersClient(APIClient):
         :param user_id: Идентификатор пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f"/api/v1/users/{user_id}")
+        return self.delete(f"{APIRoutes.USERS}/{user_id}")
 
     def get_user(self, user_id: str) -> GetUserResponseSchema:
         response = self.get_user_api(user_id)
